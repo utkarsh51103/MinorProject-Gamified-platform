@@ -79,11 +79,8 @@
 
 .heading h1 {
   font-weight: 300;
+  margin-top: 30px;
   /* color: var(--lightorange); */
-}
-
-.navbar .logo img {
-  /* border-radius: 80px 50px 50px 80px; */
 }
 
 .image {
@@ -140,10 +137,16 @@
     height: 70vh;
     /* border: 1px solid black; */
     width: 300px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 0.5rem;
     padding: 10px;
-    margin: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.learn-more .division:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.4s ease;
 }
 
 .learn-more .division img{
@@ -189,3 +192,32 @@
     padding-top: 100px;
 }
 
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  background-color: var(--seablue);
+  padding-top: 50px;
+}
+
+.footer ul li{
+  list-style: none;
+}
+
+.footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer ul li a:hover{
+  opacity: 0.6;
+  transition: 0.2s ease;
+}
+
+.list-items{
+  color: white;
+}
+
+.list-heading{
+  font-size: 17px;
+}
