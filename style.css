@@ -142,6 +142,8 @@
     padding: 10px;
     margin: 0 20px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 .learn-more .division:hover{
@@ -167,6 +169,7 @@
 
 .see-more{
     text-decoration: none;
+    align-items: flex-end;
 }
 
 #see-more-1{
@@ -189,7 +192,7 @@
 
 #see-more-4{
     display: flex;
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 .footer{
